@@ -1,0 +1,785 @@
+{
+ "patients": [
+  {
+   "demo": true,
+   "name": "Hemanta Bora",
+   "preferredName": "Hemanta",
+   "age": 74,
+   "gender": "Male",
+   "region": "Jorhat, Assam",
+   "language": "as",
+   "photo": "/uploads/demo_hemanta.svg",
+   "diagnosis": "Alzheimer's disease",
+   "stage": "early to moderate",
+   "doctor": "Dr. R. Saikia (demo)",
+   "doctorPhone": "+91 90000 00009",
+   "medications": [
+    {
+     "name": "Amlodipine",
+     "dose": "5 mg",
+     "time": "8:00 AM"
+    },
+    {
+     "name": "Donepezil",
+     "dose": "5 mg",
+     "time": "9:00 PM"
+    }
+   ],
+   "allergies": "None known",
+   "emergencyContacts": [
+    {
+     "name": "Anil Bora",
+     "relation": "Son",
+     "phone": "+91 90000 00001"
+    }
+   ],
+   "likes": "Assam tea, Bihu songs, his lemon tree, cricket on the radio",
+   "dislikes": "Loud TV, being rushed, crowded places",
+   "lifeStory": "Worked 32 years in a tea estate office near Jorhat. Married to Anjali for 45 years. Loves looking after his garden and sings Bihu songs at every family gathering.",
+   "notes": "Most settled in the mornings. Gets restless after 6 PM.",
+   "id": "pat_3a246003d0",
+   "createdAt": 1789238517594
+  }
+ ],
+ "checkins": [
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-08-31",
+   "mood": 1,
+   "sleepHours": 7.0,
+   "meals": 2,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_73e0b998c1",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-01",
+   "mood": 3,
+   "sleepHours": 5.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": false,
+   "wandering": false,
+   "fall": false,
+   "notes": "",
+   "by": "Anil Bora",
+   "id": "che_7a27d1bcbf",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-02",
+   "mood": 2,
+   "sleepHours": 5.5,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_bc5bbc9242",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-03",
+   "mood": 4,
+   "sleepHours": 5.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_10939c64d1",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-04",
+   "mood": 2,
+   "sleepHours": 6.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": false,
+   "wandering": false,
+   "fall": false,
+   "notes": "",
+   "by": "Anil Bora",
+   "id": "che_98188367a6",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-05",
+   "mood": 3,
+   "sleepHours": 6.5,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_8650ccd888",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-06",
+   "mood": 3,
+   "sleepHours": 6.5,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_39680d3e94",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-07",
+   "mood": 3,
+   "sleepHours": 7.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_58ab591d57",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-08",
+   "mood": 4,
+   "sleepHours": 5.5,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": false,
+   "wandering": false,
+   "fall": false,
+   "notes": "",
+   "by": "Anil Bora",
+   "id": "che_9534373886",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-09",
+   "mood": 2,
+   "sleepHours": 7.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_1ffba22a56",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-10",
+   "mood": 4,
+   "sleepHours": 5.5,
+   "meals": 2,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": false,
+   "wandering": false,
+   "fall": false,
+   "notes": "",
+   "by": "Anil Bora",
+   "id": "che_6a711a52b8",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-11",
+   "mood": 3,
+   "sleepHours": 7.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_bb059d7dc8",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-12",
+   "mood": 2,
+   "sleepHours": 7.5,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": true,
+   "wandering": false,
+   "fall": false,
+   "notes": "Restless after sunset, calmer with Bihu songs.",
+   "by": "Anil Bora",
+   "id": "che_57c7a9fe97",
+   "createdAt": 1789238517655
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "date": "2026-09-13",
+   "mood": 4,
+   "sleepHours": 6.0,
+   "meals": 3,
+   "medsTaken": [
+    "Amlodipine",
+    "Donepezil"
+   ],
+   "agitation": false,
+   "wandering": false,
+   "fall": false,
+   "notes": "",
+   "by": "Anil Bora",
+   "id": "che_c63d8ef54f",
+   "createdAt": 1789238517655
+  }
+ ],
+ "family": [
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "name": "Anil Bora",
+   "relation": "Son",
+   "phone": "+91 90000 00001",
+   "photo": "/uploads/demo_anil.svg",
+   "id": "fam_7e00f4c67b",
+   "createdAt": 1789238517601
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "name": "Priya Bora",
+   "relation": "Granddaughter",
+   "phone": "+91 90000 00002",
+   "photo": "/uploads/demo_priya.svg",
+   "id": "fam_3b471277c6",
+   "createdAt": 1789238517601
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "name": "Anjali Bora",
+   "relation": "Wife",
+   "phone": "+91 90000 00003",
+   "photo": "/uploads/demo_anjali.svg",
+   "id": "fam_7a49a751b8",
+   "createdAt": 1789238517601
+  }
+ ],
+ "memories": [
+  {
+   "category": "person",
+   "personName": "Priya Bora",
+   "relation": "granddaughter",
+   "caption": "Priya at Bihu",
+   "story": "Priya studies in Guwahati and comes home every Bihu to dance with you.",
+   "uploadedBy": "Priya Bora",
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "photo": "/uploads/demo_priya.svg",
+   "familyId": "fam_3b471277c6",
+   "id": "mem_ef3b7d8a44",
+   "createdAt": 1789238517607,
+   "cardId": "car_fea16ce440",
+   "updatedAt": 1789238517612
+  },
+  {
+   "category": "person",
+   "personName": "Anjali Bora",
+   "relation": "wife",
+   "caption": "Anjali",
+   "story": "Anjali makes your favourite til pitha. You have been married for 45 years.",
+   "uploadedBy": "Anil Bora",
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "photo": "/uploads/demo_anjali.svg",
+   "familyId": "fam_7a49a751b8",
+   "id": "mem_a1962fd879",
+   "createdAt": 1789238517614,
+   "cardId": "car_6ca2a4a781",
+   "updatedAt": 1789238517618
+  },
+  {
+   "category": "person",
+   "personName": "Anil Bora",
+   "relation": "son",
+   "caption": "Anil",
+   "story": "Anil lives with you and takes you to the market every Sunday.",
+   "uploadedBy": "Anil Bora",
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "photo": "/uploads/demo_anil.svg",
+   "familyId": "fam_7e00f4c67b",
+   "id": "mem_fce26a5fc8",
+   "createdAt": 1789238517620,
+   "cardId": "car_825108c2ef",
+   "updatedAt": 1789238517625
+  },
+  {
+   "category": "place",
+   "caption": "Your home in Jorhat",
+   "story": "The house with the lemon tree you planted.",
+   "uploadedBy": "Anil Bora",
+   "photo": "/uploads/demo_home.svg",
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "id": "mem_e6ff77e7b4",
+   "createdAt": 1789238517627,
+   "cardId": "car_af49b7a011",
+   "updatedAt": 1789238517633
+  },
+  {
+   "category": "routine",
+   "caption": "Drink your morning tea",
+   "story": "Assam tea with a little milk, in your blue cup.",
+   "uploadedBy": "Anjali Bora",
+   "photo": "/uploads/demo_tea.svg",
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "id": "mem_852d332e0e",
+   "createdAt": 1789238517636,
+   "cardId": "car_1e03b566b7",
+   "updatedAt": 1789238517641
+  },
+  {
+   "category": "object",
+   "caption": "Your gamosa",
+   "story": "Anjali wove this gamosa for you.",
+   "uploadedBy": "Anjali Bora",
+   "photo": "/uploads/demo_gamosa.svg",
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "id": "mem_7b6bb3a1c9",
+   "createdAt": 1789238517643,
+   "cardId": "car_27e218a845",
+   "updatedAt": 1789238517651
+  }
+ ],
+ "cards": [
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "memoryId": "mem_ef3b7d8a44",
+   "category": "person",
+   "photo": "/uploads/demo_priya.svg",
+   "title": "Priya Bora",
+   "relation": "granddaughter",
+   "front": "Who is this?",
+   "cue": "This is Priya Bora, your granddaughter. Priya studies in Guwahati and comes home every Bihu to dance with you.",
+   "cueLocal": "",
+   "cueSource": "template",
+   "stats": {
+    "shown": 9,
+    "remembered": 3,
+    "notYet": 6,
+    "lastShown": 1788979317590
+   },
+   "id": "car_fea16ce440",
+   "createdAt": 1789238517609
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "memoryId": "mem_a1962fd879",
+   "category": "person",
+   "photo": "/uploads/demo_anjali.svg",
+   "title": "Anjali Bora",
+   "relation": "wife",
+   "front": "Who is this?",
+   "cue": "This is Anjali Bora, your wife. Anjali makes your favourite til pitha.",
+   "cueLocal": "",
+   "cueSource": "template",
+   "stats": {
+    "shown": 4,
+    "remembered": 1,
+    "notYet": 3,
+    "lastShown": 1789238517590
+   },
+   "id": "car_6ca2a4a781",
+   "createdAt": 1789238517616
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "memoryId": "mem_fce26a5fc8",
+   "category": "person",
+   "photo": "/uploads/demo_anil.svg",
+   "title": "Anil Bora",
+   "relation": "son",
+   "front": "Who is this?",
+   "cue": "This is Anil Bora, your son. Anil lives with you and takes you to the market every Sunday.",
+   "cueLocal": "",
+   "cueSource": "template",
+   "stats": {
+    "shown": 9,
+    "remembered": 1,
+    "notYet": 8,
+    "lastShown": 1789152117590
+   },
+   "id": "car_825108c2ef",
+   "createdAt": 1789238517622
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "memoryId": "mem_e6ff77e7b4",
+   "category": "place",
+   "photo": "/uploads/demo_home.svg",
+   "title": "Your home in Jorhat",
+   "relation": "",
+   "front": "Where is this?",
+   "cue": "This is your home in Jorhat. The house with the lemon tree you planted.",
+   "cueLocal": "",
+   "cueSource": "template",
+   "stats": {
+    "shown": 4,
+    "remembered": 1,
+    "notYet": 3,
+    "lastShown": 1788979317590
+   },
+   "id": "car_af49b7a011",
+   "createdAt": 1789238517630
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "memoryId": "mem_852d332e0e",
+   "category": "routine",
+   "photo": "/uploads/demo_tea.svg",
+   "title": "Drink your morning tea",
+   "relation": "",
+   "front": "What do we do now?",
+   "cue": "Now it is time to drink your morning tea. Assam tea with a little milk, in your blue cup.",
+   "cueLocal": "",
+   "cueSource": "template",
+   "stats": {
+    "shown": 10,
+    "remembered": 2,
+    "notYet": 8,
+    "lastShown": 1789152117590
+   },
+   "id": "car_1e03b566b7",
+   "createdAt": 1789238517639
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "memoryId": "mem_7b6bb3a1c9",
+   "category": "object",
+   "photo": "/uploads/demo_gamosa.svg",
+   "title": "Your gamosa",
+   "relation": "",
+   "front": "What is this?",
+   "cue": "This is your gamosa. Anjali wove this gamosa for you.",
+   "cueLocal": "",
+   "cueSource": "template",
+   "stats": {
+    "shown": 5,
+    "remembered": 5,
+    "notYet": 0,
+    "lastShown": 1788979317590
+   },
+   "id": "car_27e218a845",
+   "createdAt": 1789238517648
+  }
+ ],
+ "sessions": [
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "haat",
+   "source": "demo",
+   "startedAt": 1788115317590,
+   "durationMs": 99000,
+   "completed": true,
+   "correct": 2,
+   "wrong": 1,
+   "accuracy": 0.59,
+   "meanReactionMs": 3777,
+   "details": {
+    "shoppingList": [
+     "Assam Tea",
+     "Local Greens"
+    ],
+    "stallVisits": 2
+   },
+   "id": "ses_fbb6d70327",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "haat",
+   "source": "demo",
+   "startedAt": 1788288117590,
+   "durationMs": 93000,
+   "completed": true,
+   "correct": 2,
+   "wrong": 1,
+   "accuracy": 0.67,
+   "meanReactionMs": 3718,
+   "details": {
+    "shoppingList": [
+     "Assam Tea",
+     "Local Greens"
+    ],
+    "stallVisits": 4
+   },
+   "id": "ses_9cba8ccb1c",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "haat",
+   "source": "demo",
+   "startedAt": 1788460917590,
+   "durationMs": 123000,
+   "completed": true,
+   "correct": 2,
+   "wrong": 1,
+   "accuracy": 0.68,
+   "meanReactionMs": 4154,
+   "details": {
+    "shoppingList": [
+     "Assam Tea",
+     "Local Greens"
+    ],
+    "stallVisits": 4
+   },
+   "id": "ses_542977c907",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "haat",
+   "source": "demo",
+   "startedAt": 1788720117590,
+   "durationMs": 110000,
+   "completed": true,
+   "correct": 2,
+   "wrong": 1,
+   "accuracy": 0.78,
+   "meanReactionMs": 3197,
+   "details": {
+    "shoppingList": [
+     "Assam Tea",
+     "Local Greens"
+    ],
+    "stallVisits": 2
+   },
+   "id": "ses_3707c24aaa",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "haat",
+   "source": "demo",
+   "startedAt": 1788892917590,
+   "durationMs": 120000,
+   "completed": true,
+   "correct": 2,
+   "wrong": 0,
+   "accuracy": 0.82,
+   "meanReactionMs": 3635,
+   "details": {
+    "shoppingList": [
+     "Assam Tea",
+     "Local Greens"
+    ],
+    "stallVisits": 5
+   },
+   "id": "ses_5865b2af83",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "haat",
+   "source": "demo",
+   "startedAt": 1789152117590,
+   "durationMs": 131000,
+   "completed": true,
+   "correct": 2,
+   "wrong": 0,
+   "accuracy": 0.86,
+   "meanReactionMs": 3999,
+   "details": {
+    "shoppingList": [
+     "Assam Tea",
+     "Local Greens"
+    ],
+    "stallVisits": 5
+   },
+   "id": "ses_fa0677c819",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "tator",
+   "source": "demo",
+   "startedAt": 1788201717590,
+   "durationMs": 68000,
+   "completed": true,
+   "correct": 12,
+   "wrong": 12,
+   "accuracy": 0.51,
+   "meanReactionMs": 1913,
+   "details": {
+    "patternsCompleted": 2
+   },
+   "id": "ses_f7d2f131fd",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "tator",
+   "source": "demo",
+   "startedAt": 1788374517590,
+   "durationMs": 74000,
+   "completed": true,
+   "correct": 14,
+   "wrong": 9,
+   "accuracy": 0.6,
+   "meanReactionMs": 1958,
+   "details": {
+    "patternsCompleted": 3
+   },
+   "id": "ses_332d41b036",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "tator",
+   "source": "demo",
+   "startedAt": 1788633717590,
+   "durationMs": 73000,
+   "completed": true,
+   "correct": 16,
+   "wrong": 8,
+   "accuracy": 0.68,
+   "meanReactionMs": 1520,
+   "details": {
+    "patternsCompleted": 4
+   },
+   "id": "ses_fe48bef490",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "tator",
+   "source": "demo",
+   "startedAt": 1788806517590,
+   "durationMs": 128000,
+   "completed": true,
+   "correct": 18,
+   "wrong": 6,
+   "accuracy": 0.74,
+   "meanReactionMs": 1533,
+   "details": {
+    "patternsCompleted": 5
+   },
+   "id": "ses_fe87b6e5b8",
+   "createdAt": 1789238517659
+  },
+  {
+   "demo": true,
+   "patientId": "pat_3a246003d0",
+   "game": "tator",
+   "source": "demo",
+   "startedAt": 1789065717590,
+   "durationMs": 138000,
+   "completed": true,
+   "correct": 20,
+   "wrong": 4,
+   "accuracy": 0.83,
+   "meanReactionMs": 1366,
+   "details": {
+    "patternsCompleted": 6
+   },
+   "id": "ses_f198c8bd0a",
+   "createdAt": 1789238517659
+  }
+ ]
+}

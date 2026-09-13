@@ -1,0 +1,2 @@
+Put the Godot Web export of this game here (index.html plus the .js, .wasm and .pck files next to it).
+See ../README.md for the steps.

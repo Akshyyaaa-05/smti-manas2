@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MANAS Care Portal</title>
+  <meta name="description" content="SMTI-MANAS care portal: patient profile, daily care, family memories, cue cards, games and the Sangi helper.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23a4262c'/%3E%3Cpath d='M16 44V20l16 14 16-14v24' stroke='%23fff' stroke-width='6' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/home" aria-label="MANAS Care Portal home">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span class="brand-text"><strong>MANAS</strong> <span>Care Portal</span></span>
+    </a>
+    <div class="topbar-tools" id="topbar-tools"></div>
+  </header>
+  <div class="gamosa" aria-hidden="true"></div>
+  <div class="shell">
+    <nav class="sidenav" id="nav" aria-label="Main"></nav>
+    <main id="view" class="view" tabindex="-1"></main>
+  </div>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
